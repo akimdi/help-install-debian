@@ -1,0 +1,12 @@
+# https://wiki.debian.org/DebianReleases
+# https://www.debian.org/releases
+deb https://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+deb-src https://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+
+deb https://security.debian.org bookworm-security non-free contrib main non-free-firmware
+deb-src https://security.debian.org bookworm-security non-free contrib main non-free-firmware
+
+# bookworm-updates, to get updates before a point release is made;
+# see https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_updates_and_backports
+deb https://deb.debian.org/debian bookworm-updates non-free contrib main non-free-firmware
+deb-src https://deb.debian.org/debian bookworm-updates non-free contrib main non-free-firmware
